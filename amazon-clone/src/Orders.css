@@ -1,0 +1,25 @@
+.orders {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.orders > h1 {
+  margin: 5px 10px;
+}
+
+.orders__order {
+  padding: 20px;
+  margin: 20px 0;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.orders__order > div > h4 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
